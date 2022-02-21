@@ -166,7 +166,7 @@ public class RestoringDiv {
         int[] M = new int[N + 1];
         int[] minusM = new int[N + 1];
         int[] bin_M = tobinary(m);
-        System.out.print("\n  Before M = " + m + "  : " + displayArray(bin_M));
+        // System.out.print("\n Before M = " + m + " : " + displayArray(bin_M));
 
         // Padding
         int index = bin_M.length;
